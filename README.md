@@ -8,9 +8,17 @@
 
 ## Project Motivation<a name="motivation"></a>
 
-In this project, we analyzed disaster data from [Appen](https://appen.com/) to build a model for an API that classifies disaster messages. We utilized the provided data set containing real messages that were sent during disaster events. We created a machine learning pipeline to categorize these events so that we can send the messages to an appropriate disaster relief agency. Our project included a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displayed visualizations of the data. A screenshot of the query result for message "We are more than 50 people sleeping on the street. Please help us find tent, food." is as follows:
+In this project, we analyzed disaster data from [Appen](https://appen.com/) to build a model for an API that classifies disaster messages. We utilized the provided data set containing real messages that were sent during disaster events. We created a machine learning pipeline to categorize these events so that we can send the messages to an appropriate disaster relief agency. Our project included a web app where an emergency worker can input a new message and get classification results in several categories.
+
+A screenshot of the query result for message "We are more than 50 people sleeping on the street. Please help us find tent, food." is as follows:
 
 ![alt text](disaster-response-project.png)
+
+The web app also displayed visualizations of Percentage of "1"s in each of the 36 categories, from which we can visualize how imbalanced each category is, and thus have a reasonable expectation of the performance of the classification.
+
+![alt text](barchart.png)
+
+
 
 
 ## File Descriptions <a name="files"></a>
